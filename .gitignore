@@ -1,0 +1,32 @@
+# Dependências (reinstale com npm install)
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Variáveis de ambiente / segredos
+.env
+.env.*
+
+# Áudios gravados e transcrições geradas
+*.wav
+*.mp3
+*.webm
+*.f32
+*.txt.out
+
+# Cache de modelos do Whisper (baixado automaticamente)
+.cache/
+models/
+
+# Arquivos do sistema e editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Pasta local do Claude Code
+.claude/

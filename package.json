@@ -1,0 +1,16 @@
+{
+  "name": "whispernodetest",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --use-system-ca index.js"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.1",
+    "ffmpeg-static": "^5.3.0"
+  }
+}
